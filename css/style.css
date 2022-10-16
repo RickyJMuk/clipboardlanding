@@ -1,0 +1,412 @@
+@font-face {
+    font-family: baija-regular;
+    src: url(BaiJamjuree-Regular.ttf);
+}
+
+@font-face {
+    font-family: baija-bold;
+    src: url(BaiJamjuree-SemiBold.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+}
+
+h1, h2, h3 {
+    color: hsl(210, 10%, 33%);
+}
+
+header {
+    background-image: url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-position-y: bottom;
+    text-align: center;
+    height: 25vh;
+}
+
+header img {
+    align-self: center;
+    width: 70px;
+    padding-top: 40px;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+main h1 {
+    font-family: baija-bold;
+    font-weight: 600;
+    padding-top: 6px;
+    padding-bottom: 20px;
+}
+
+main h2, section h2 {
+    font-family: baija-bold;
+    font-weight: 600;
+    font-size: 24px;
+    padding-top: 50px;
+    padding-bottom: 14px;
+    text-align: center;
+}
+
+main p, section p {
+    font-family: baija-regular;
+    font-size: 18px;
+    padding-bottom: 26px;
+    text-align: center;
+    align-self: center;
+    width: 55%;  
+}
+
+#anchor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#anchor a, #download a {
+    font-family: baija-regular;
+    font-size: 18px;
+    border: 1px solid;
+    border-radius: 18px;
+    color: #fff;
+    padding: 8px 12px;
+    text-decoration: none;
+
+}
+
+.cyan {
+    background-color: hsl(171, 66%, 44%);
+    border-color: hsl(171, 66%, 44%);
+}
+
+a:hover {
+    background-color: #21ebaa;
+    border-color: #21ebaa;
+}
+
+.blue {
+    background-color: hsl(233, 100%, 69%);
+    border-color: hsl(233, 100%, 69%);
+}
+
+article {
+    display: flex;
+}
+
+article img {
+    width: 80%;
+}
+
+#details {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+article h3 {
+    font-family: baija-bold;
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 14px;
+}
+
+article p {
+    font-family: baija-regular;
+    font-size: 18px;
+    padding-bottom: 32px;
+    width: 70%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section img {
+    width: 80%;
+    align-self: center;
+}
+
+aside {
+    display: flex;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+#create img, #plain img, #sneak img {
+    width: 60px;
+    align-self: center;
+}
+
+aside h3 {
+    font-family: baija-bold;
+    font-weight: 600;
+    text-align: center;
+    align-self: center;
+}
+
+aside p {
+    font-family: baija-regular;
+    font-size: 18px;
+    width: 70%;
+    text-align: center;
+    align-self: center;
+}
+
+figure {
+    display: flex;
+    justify-content: space-around;
+}
+
+figure img {
+    width: 120px;
+}
+
+#ending {
+    display: flex;
+    flex-direction: column;
+}
+
+#ending h2 {
+    font-family: baija-bold;
+    font-weight: 600;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#ending p {
+    font-family: baija-regular;
+    font-size: 18px;
+    padding-bottom: 26px;
+    text-align: center;
+}
+
+#download {
+    align-content: center;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 140px;
+    gap: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: hsla(202, 11%, 66%, 0.087);
+    height: 15vh;
+}
+
+#logo img {
+    width: 75px;
+    padding: 20px;
+}
+
+#anchor1 a, #anchor2 a, #anchor3 a {
+    font-family: baija-regular;
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(210, 10%, 33%);
+    border: none;
+    padding: 20px;
+    text-decoration: none;
+    display: flex;
+    height: 20px;
+}
+
+#anchor1 a:hover, #anchor2 a:hover, #anchor3 a:hover {
+    border: none;
+    background-color: hsla(202, 11%, 66%, 0.087);
+    color: #21ebaa;
+}
+
+#contacts {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contacts a {
+    padding: 0 8px;
+}
+
+#contacts  a:hover {
+    background-color: #fff;
+    color: #21ebaa;
+}
+
+@media screen and (max-width: 576px) {
+    header {
+        height: 50vh;
+    }
+
+    header img {
+        width: 120px;
+        padding-top: 110px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    main h1 {
+        text-align: center;
+        align-self: center;
+        width: 50%;
+    }
+
+    main p, section p {
+        width: 72%;
+    }
+
+    #anchor {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 150px;
+    }
+
+    #anchor a, #download a {
+        width: 90%;
+        padding: 20px; 
+    }
+
+    main h2, section h2 {
+        text-align: center;
+        align-self: center;
+        width: 50%;
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    article img {
+        padding-bottom: 40px;
+    }
+
+    #details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    section img {
+        padding-top: 50px;
+    }
+
+    aside {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 60px;
+    }
+
+    #create img, #plain img, #sneak img {
+        padding-bottom: 40px;
+    }
+
+    aside h3 {
+        font-size: 20px;
+        padding-bottom: 24px;
+    }
+
+    aside p {
+        text-align: center;
+        align-self: center;
+        width: 84%;
+    }
+
+    figure {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    figure img {
+        padding-bottom: 60px;
+        width: 35%;
+    }
+
+    #ending {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #ending h2 {
+        font-size: 24px;
+        width: 60%;
+        padding-bottom: 40px;
+    }
+
+    #ending p {
+       width: 70%; 
+    }
+
+    #download {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 150px;
+        gap: 25px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+    }
+
+    #logo img {
+        padding: 0;
+        width: 75px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    #contacts {
+        padding-bottom: 26px;
+    }
+
+}
